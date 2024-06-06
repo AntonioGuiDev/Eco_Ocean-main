@@ -1,0 +1,126 @@
+* {
+    margin: 2;
+    padding: 2;
+    box-sizing: border-box;
+}
+  
+body {
+    color: darkblue;
+    font-family: "Maven Pro", sans-serif;
+    background-image: linear-gradient(
+    to right top,
+    #0083c6,
+    #00a4c5,
+    #00c2b7,
+    #85dbaa
+);
+}
+  
+main {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    grid-template-areas:
+        "h1     h1    h1"
+        "h2     h2    h2"
+        "p1     p1    ilha"
+        "p2     p2    ilha"
+        "p2     p2    ilha"
+        "lixo   p3    p3"
+        "lixo   p4    p4"
+        "h3     h3    h3"
+        "praia  p5    p5";
+}
+  
+h1 {
+    grid-area: h1;
+    text-align: center;
+}
+  
+h2 {
+    grid-area: h2;
+}
+
+h3 {
+    grid-area: h3;
+}
+
+ul {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    grid-area: ul;
+}
+  
+li {
+    margin: 20px;
+    list-style: none;
+    color: rgb(163, 48, 67);
+}
+  
+p {
+    margin: 25px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 2;
+}
+  
+.p1 {
+    grid-area: p1;
+}
+  
+.p2 {
+    grid-area: p2;
+}
+  
+.p3 {
+    grid-area: p3;
+}
+
+.p4 {
+    grid-area: p4;
+}
+.p5 {
+    grid-area: p5;
+}
+
+.ilha {
+    width: 25vw;
+    height: 20vw;
+    text-align: center;
+    grid-area: ilha;
+}
+
+.lixo{
+    width: 25vw;
+    height: 20vw;
+    text-align: center;
+    grid-area: lixo;
+}
+
+.praia {
+    width: 25vw;
+    height: 20vw;
+    text-align: center;
+    grid-area: praia;
+}
+
+footer {
+    grid-area: footer;
+}
+
+a {
+    color: rgb(163, 48, 67);
+    text-decoration: none;
+    line-height: 1.5;
+}
+  
+  
+  
+  
+  
+  
+  
+  

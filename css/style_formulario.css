@@ -1,0 +1,152 @@
+* {
+  margin: 2;
+  padding: 2;
+  box-sizing: border-box;
+}
+
+body {
+  color: darkblue;
+  font-family: "Maven Pro", sans-serif;
+  background-image: linear-gradient(
+    to right top,
+    #0083c6,
+    #00a4c5,
+    #00c2b7,
+    #85dbaa
+  );
+}
+
+
+form {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: auto;
+  grid-auto-rows: auto;
+  grid-template-areas: 
+  'aside  form  form '
+  'aside  form  form '
+  'aside  form  form '
+  'aside  form  form '
+  'aside  form  form '
+  'footer footer footer';
+}
+
+.logo{
+  text-align: center;
+}
+
+ul {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  grid-area: ul;
+}
+
+li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(163, 48, 67);
+}
+
+fieldset{
+  width: 650px;
+  justify-content: center;
+  align-items: center;
+
+}
+/* 
+.idNome{
+  margin-top: 6px;
+}
+
+.idDataNasc{
+  margin-top: -18px;
+  margin-left: 350px;
+}
+
+.idEmail{
+  margin-top: 10px;
+}
+
+.idgenero{
+  margin-top: -18px;
+  margin-left: 350px;
+}
+
+.idCidade{
+  margin-top: 10px;
+}
+
+.idBairro{
+  margin-top: -18px;
+  margin-left: 350px;
+}
+
+.coleta{
+  text-align: center;
+  margin-top: 35px;
+}
+.coleSim{
+  margin-left:180px;
+}
+
+.coleNao{
+  margin-top: -19px;
+  margin-left: 410px;
+}
+
+.descarte{
+  text-align: center;
+  margin-top: 45px;
+}
+
+.plastico{
+  margin-left: 30px;
+}
+
+.madeira{
+  margin-top:-20px;
+  margin-left: 155px;
+}
+
+.vidro{
+  margin-top:-20px;
+  margin-left: 275px;
+}
+
+.papelao{
+  margin-top:-20px;
+  margin-left: 375px;
+}
+
+.isopor{
+  margin-top:-20px;
+  margin-left: 500px;
+}
+
+.residuo{
+  text-align: center;
+  margin-top: 15px ;
+}
+
+.info{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.infoSim{
+  margin-left:180px;
+} */
+
+.infoNao{
+  margin-top: -19px;
+  margin-left: 410px;
+}

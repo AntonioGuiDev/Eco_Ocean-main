@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEJA UM DE NÓS</title>
+    <link rel="stylesheet" href="/css/style_formulario.css" />
+    <script src="/js/formulario.js"defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="/imagens/logoempe.png" alt="logo" /></div>
+      <nav>
+        <ul>
+          <li>
+            <a href="/principal.html"><b>ECO OCEAN</b></a>
+          </li>
+          <li>
+            <a href="/paginas/gs_membros.html"><b>GLOBAL SOLUTION</b></a>
+          </li>
+          <li>
+            <a href="/paginas/desafio.html"><b>DESAFIO PROPOSTO</b></a>
+          </li>
+          <li>
+            <a href="/paginas/solucao.html"><b>SOLUÇÃO PROPOSTA</b></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <aside>
+          <p>Outras ONGs e mais informações sobre o acúmulo de material descartado INCORRETAMENTE</p>
+          <a
+            href="https://www.institutoecofaxina.org.br/o-instituto"
+          >Instituto Eco Faxina</a><img src="" alt="">
+          <a
+            href="https://theoceancleanup.com/"
+          >The Ocean Clean Up</a><img src="" alt="">
+          <a
+            href="https://seabin.io/home"
+          >Seabin</a><img src="" alt="">
+          <a href="https://linhadareciclagem.pt/">Encontre um Eco Ponto próximo de Você!!</a><img src="" alt="">
+        </aside>
+     
+
+      <form action="cadastro">
+        <fieldset>
+          <div class="idNome">
+            <label for="idNome">Nome Completo</label>
+            <input type="text" id="idNome" /><br />
+          </div>
+
+          <div class="idDataNasc">
+            <label for="idDataNasc">Data de Nascimento</label>
+            <input type="date" id="idDataNasc" />
+          </div>
+
+          <div class="idEmail">
+            <label for="idE-mail">E-mail</label>
+            <input type="text" id="idE-mail" />
+          </div>
+
+          <div class="idgenero">
+            <label for="idgenero">Gênero</label>
+            <input type="text" id="idgenero" />
+          </div>
+
+          <div class="idCidade">
+            <label for="idCidade">Cidade</label>
+            <input type="text" id="idCidade" />
+          </div>
+
+          <div class="idBairro">
+            <label for="idBairro">Bairro</label>
+            <input type="text" id="idBairro" />
+          </div>
+
+          <div class="coleta">
+            <p>
+              Existem ponto de <strong>COLETA DE MATERIAL RECICLÁVEL</strong> no
+              seu bairro?
+            </p>
+          </div>
+
+          <div class="coleSim">
+            <label for="idSim">Sim</label
+            ><input type="radio" name="questao" id="idSim" value="SIM" /><br />
+          </div>
+
+          <div class="coleNao">
+            <label for="idNao">Não</label
+            ><input type="radio" name="questao" id="idNao" value="NAO" /><br />
+          </div>
+
+          <div class="descarte">
+            <p>
+              Quais tipos de <em>material descartado incorretamente</em> você
+              costuma encontrar?
+            </p>
+          </div>
+          <div class="plastico">
+            <label for="idplastico">PLÁSTICO</label>
+            <input
+              type="checkbox"
+              name="local"
+              id="idplastico"
+              value="plastico"
+            /><br />
+          </div>
+
+          <div class="madeira">
+            <label for="idmadeira">MADEIRA</label>
+            <input
+              type="checkbox"
+              name="local"
+              id="idmadeira"
+              value="madeira"
+            /><br />
+          </div>
+
+          <div class="vidro">
+            <label for="idvidro">VIDRO</label>
+            <input
+              type="checkbox"
+              name="local"
+              id="idvidro"
+              value="vidro"
+            /><br />
+          </div>
+
+          <div class="papelao">
+            <label for="idpapelao">PAPELÃO</label>
+            <input
+              type="checkbox"
+              name="local"
+              id="idpapelao"
+              value="papelao"
+            /><br />
+          </div>
+
+          <div class="isopor">
+            <label for="idisopor">ISOPOR</label>
+            <input
+              type="checkbox"
+              name="local"
+              id="idisopor"
+              value="isopor"
+            /><br />
+          </div>
+
+          <div class="residuo">
+            <label for="idconstrucao"
+              >RESÍDUOS DE CONSTRUÇÃO / DEMOLIÇÃO(ENTULHO)</label
+            >
+            <input
+              type="checkbox"
+              name="local"
+              id="idconstrucao"
+              value="construcao"
+            /><br />
+          </div>
+
+          <div class="info">
+            <p>Deseja receber notificações sobre a <i><b>EcoOcean</b></i> por e-mail?</p>
+          </div>
+
+          <div class="infoSim">
+            <label for="idSim">Sim</label
+            ><input type="radio" name="info" id="idSim" value="SIM" /><br />
+          </div>
+
+          <div class="infoNao">
+            <label for="idNao">Não</label
+            ><input type="radio" name="info" id="idNao" value="NAO" /><br />
+          </div>
+
+          <div class="botaoenviar">
+            <button type="submit">Enviar</button>
+          </div>
+
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>

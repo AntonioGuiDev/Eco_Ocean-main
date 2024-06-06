@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(66, 248, 242);
+  color: darkblue;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.logo {
+  margin-top: 7px;
+  padding: 5px;
+}
+
+ul {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style: none;
+  color: rgb(163, 48, 67);
+}
